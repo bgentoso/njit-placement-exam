@@ -21,16 +21,8 @@ document.getElementById('add-gb').addEventListener('click', function() {
     document.getElementById('qty-total').textContent = total
 })
 document.getElementById('minus-gb').addEventListener('click', function() {
-    if (gb <= 0){
-        gb -= 0}
-        else {
-            gb -= 1
-        } 
-    if (total <=0){
-        total -= 0}
-        else {
-            total -= 1 
-        };
+    gb -= 1;
+    total -=1;
     document.getElementById('qty-gb').textContent = gb
     document.getElementById('qty-total').textContent = total
 })
@@ -41,16 +33,8 @@ document.getElementById('add-cc').addEventListener('click', function() {
     document.getElementById('qty-total').textContent = total
 })
 document.getElementById('minus-cc').addEventListener('click', function() {
-    if (cc <= 0){
-        cc -= 0}
-        else {
-            cc -= 1
-        } 
-    if (total <=0){
-        total -= 0}
-        else {
-            total -= 1 
-        };
+    cc -= 1;
+    total -=1;
     document.getElementById('qty-cc').textContent = cc
     document.getElementById('qty-total').textContent = total
 })
@@ -61,16 +45,8 @@ document.getElementById('add-sugar').addEventListener('click', function() {
     document.getElementById('qty-total').textContent = total
 })
 document.getElementById('minus-sugar').addEventListener('click', function() {
-    if (sugar <= 0){
-        sugar -= 0}
-        else {
-            sugar -= 1
-        } 
-    if (total <=0){
-        total -= 0}
-        else {
-            total -= 1 
-        };
+    sugar -= 1;
+    total -=1;
     document.getElementById('qty-sugar').textContent = sugar
     document.getElementById('qty-total').textContent = total
 })
